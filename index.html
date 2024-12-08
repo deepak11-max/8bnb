@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleshhet" href="index.css">
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <h3>helloi,deepak</h3>
+     <button id="show">show</button>
+     <button id="hide">hide</button>
+     <button id="save">save</button>
+    <img src="file:///C:/Users/DELL/Documents/deepak.png.jpg">
+    <button onclick="openwindow()">open file</button>
+    <button id="click">datsheet</button>
+    <img src= "gallery.html/deepak.png.jpg" id="pic">
+    <script>
+        let pic=document.getElementById('pic');
+       console.log(pic);
+$(documnent).ready(function(){
+    $("#click").click(function(){
+        $("h3").fadetoggle(slow);
+    });
+});
+
+
+         $(document).ready(function(){
+            $("#hide").click(function(){
+                $("h3").hide();
+            });
+        $("#show").click(function(){
+            $("h3").show();
+        });
+        $("#save").click(function(){
+            $("h3").save();
+        });
+    });
+
+         
+        
+         
+    </script>
+    <style>
+        .deep{
+            align-items: center;
+        }
+    </style>
+</body>
+</html>
